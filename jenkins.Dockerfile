@@ -17,4 +17,4 @@ RUN apt-get update  -qq \
 RUN usermod -aG docker jenkins
 
 # drop back to the regular jenkins user - good practice
-USER jenkins
+USER jenkins1
